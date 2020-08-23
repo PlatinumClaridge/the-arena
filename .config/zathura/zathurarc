@@ -43,13 +43,7 @@ set recolor-keephue             "true"
 
 # settings
 set guioptions none
-set window-height 700
-set window-width 600
-set adjust-open width
-# set show-scrollbars true
-set first-page-column 2
 set window-title-basename true
-# set database sqlite
 set recolor-keephue
 set selection-clipboard clipboard
 
