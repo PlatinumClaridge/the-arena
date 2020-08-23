@@ -245,6 +245,12 @@ XF86AudioLowerVolume
 XF86AudioMute
 	volume mute
 
+XF86Audio{Next,Prev}
+	mpc {next,prev}
+
+XF86Audio{Pause,Play,Stop}
+	mpc {toggle,toggle,stop}
+
 XF86MonBrightnessDown
  light -U 5
 
