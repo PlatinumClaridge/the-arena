@@ -14,14 +14,16 @@ Plug 'vimwiki/vimwiki'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
+Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
-set bg=light
 set go=a
 set mouse=a
 set nohlsearch
 set clipboard+=unnamedplus
 set ic
+colorscheme codedark
+set cursorline
 
 let g:lightline = {
       \ 'colorscheme': 'wombat',
@@ -33,7 +35,7 @@ let g:lightline = {
 	filetype plugin on
 	syntax on
 	set encoding=utf-8
-	set number relativenumber
+	set number nonumber
 	set noshowmode
 " Always show statusline
 	set laststatus=2
@@ -43,7 +45,7 @@ let g:lightline = {
 	autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Goyo plugin makes text more readable when writing prose:
-	map <leader>m :Goyo \| set bg=light \| set linebreak<CR>
+	map <leader>m :Goyo \| set linebreak<CR>
 
 " Spell-check set to <leader>o, 'o' for 'orthography':
 	map <leader>o :setlocal spell! spelllang=en_us<CR>
