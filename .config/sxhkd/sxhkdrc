@@ -195,19 +195,6 @@ super + button{4,5}
 	DidIClickDesktop.sh && rofimenu -desktop
 #DidIClickDesktop.sh && mygtkmenui -- .config/GTKmenu/LaunchMenu
 
-# Switch workspace by scrolling on the desktop. Causes scrolling issues on some systems.
-#~button4
-#	DidIClickDesktop.sh && bspc desktop -f next
-#~button5
-#	DidIClickDesktop.sh && bspc desktop -f prev
-
-### Add or remove desktops by scrolling
-super + ctrl + button5
-    bspcp dsktp rm
-
-super + ctrl + button4
-    bspcp dsktp add
-
 # Spawn applications popup menu and manually tile selected
 # app where your mouse was when you opened the menu. Smartsplit only chooses
 # biggest dimension of the window, MouseLaunch only cares which edge is closer.
@@ -223,14 +210,14 @@ mod1 + @button1
 	BspwmWindowMenu
 # mygtkmenui -- .config/GTKmenu/BspwmWindowMenui
 
-Print
-	scrot; notify-send "Fullscreen saved"
+@Print
+	scrot -s
 
 super + Print
 	scrot -u; notify-send "Window saved"
 
 super + shift + Print
-	scrot -s
+	scrot; notify-send "Fullscreen saved"
 
 #
 # Media keys
