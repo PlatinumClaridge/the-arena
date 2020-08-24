@@ -2,7 +2,7 @@
 #
 # Cleanly quit bspwm
 super + shift + q
-	bspc quit 1 && pkill lemonpanel && pkill lemonbar
+	bspc quit 1 && killall limepanel
 
 # Show keybindings
 super + F1

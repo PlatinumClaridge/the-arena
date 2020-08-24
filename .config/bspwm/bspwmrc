@@ -78,4 +78,5 @@ bspc config external_rules_command /usr/bin/pseudo_automatic_mode
 #sxhkd &
 #Source autostartfile. Uncomment this if you use bspwm-git
 #. $HOME/.config/bspwm/autostart
+killall limepanel
 limepanel &
