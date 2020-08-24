@@ -14,15 +14,15 @@ Plug 'vimwiki/vimwiki'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
-Plug 'tomasiser/vim-code-dark'
 call plug#end()
+
+hi CursorLine cterm=NONE ctermbg=darkred
 
 set go=a
 set mouse=a
 set nohlsearch
 set clipboard+=unnamedplus
 set ic
-colorscheme codedark
 set cursorline
 
 let g:lightline = {
