@@ -55,6 +55,7 @@ bspc rule -a wbar layer=above
 bspc rule -a firefox private=on
 bspc rule -a wpa_gui state=pseudo_tiled
 bspc rule -a mpv follow=off state=floating
+bspc rule -a Zathura state=tiled
 
 ##  Autogap adjusts windowgap automatically according to the number of
 ##  windows on the desktop. Using it disables negative window gap.
