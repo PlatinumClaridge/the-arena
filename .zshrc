@@ -99,5 +99,3 @@ alias cp='cp -iv' \
 	ffmpeg='ffmpeg -hide_banner' \
 	vu='git add . && git commit -m "Update" && git push origin master' \
 	fetch='neofetch'
-
-thearena
