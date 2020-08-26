@@ -16,14 +16,14 @@ Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
 call plug#end()
 
-hi CursorLine cterm=NONE ctermbg=darkred
-
 set go=a
-set mouse=a
 set nohlsearch
 set clipboard+=unnamedplus
 set ic
 set cursorline
+set termguicolors
+
+hi CursorLine cterm=NONE guibg=#393939
 
 let g:lightline = {
       \ 'colorscheme': 'wombat',
