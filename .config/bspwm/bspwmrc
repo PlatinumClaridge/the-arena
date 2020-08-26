@@ -1,4 +1,7 @@
 #! /bin/sh
+
+bspc rule -r "*"
+
 gap=15
 PANEL_HEIGHT=20
 export gap
@@ -52,7 +55,7 @@ bspc rule -a floaterm state=floating center=true
 bspc rule -a astime sticky=on
 bspc rule -a yad state=floating
 bspc rule -a wbar layer=above
-bspc rule -a firefox private=on
+bspc rule -a chromium private=on
 bspc rule -a wpa_gui state=pseudo_tiled
 bspc rule -a mpv follow=off state=floating
 bspc rule -a Zathura state=tiled
