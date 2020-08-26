@@ -1,0 +1,29 @@
+#!/bin/sh
+
+# Check configs for diffs
+
+diff ~/Documents/repos/the-arena/.config/bspwm/autostart ~/.config/bspwm/autostart
+diff ~/Documents/repos/the-arena/.config/bspwm/bspwmrc ~/.config/bspwm/bspwmrc
+diff ~/Documents/repos/the-arena/.config/calcurse/conf ~/.config/calcurse/conf
+diff ~/Documents/repos/the-arena/.config/calcurse/keys ~/.config/calcurse/keys
+diff ~/Documents/repos/the-arena/.config/dunst/dunstrc ~/.config/dunst/dunstrc
+diff ~/Documents/repos/the-arena/.config/htop/htoprc ~/.config/htop/htoprc
+diff ~/Documents/repos/the-arena/.config/mpd/mpd.conf ~/.config/mpd/mpd.conf
+diff ~/Documents/repos/the-arena/.config/ncmpcpp/bindings ~/.config/ncmpcpp/bindings
+diff ~/Documents/repos/the-arena/.config/ncmpcpp/config ~/.config/ncmpcpp/config
+diff ~/Documents/repos/the-arena/.config/neofetch/config.conf ~/.config/neofetch/config.conf
+diff ~/Documents/repos/the-arena/.config/nvim/init.vim ~/.config/nvim/init.vim
+diff ~/Documents/repos/the-arena/.config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc
+diff ~/Documents/repos/the-arena/.config/sxiv/exec/key-handler ~/.config/sxiv/exec/key-handler
+diff ~/Documents/repos/the-arena/.config/zathura/zathurarc ~/.config/zathura/zathurarc
+diff ~/Documents/repos/the-arena/.local/bin/confsink ~/.local/bin/confsink
+diff ~/Documents/repos/the-arena/.local/bin/cronsave ~/.local/bin/cronsave
+diff ~/Documents/repos/the-arena/.local/bin/remaps ~/.local/bin/remaps
+diff ~/Documents/repos/the-arena/.local/bin/rssadd ~/.local/bin/rssadd
+diff ~/Documents/repos/the-arena/.local/bin/setbg ~/.local/bin/setbg
+diff ~/Documents/repos/the-arena/.local/bin/thearena ~/.local/bin/thearena
+diff ~/Documents/repos/the-arena/.newsboat/config ~/.newsboat/config
+diff ~/Documents/repos/the-arena/.limepanelrc ~/.limepanelrc
+diff ~/Documents/repos/the-arena/.profile ~/.profile
+diff ~/Documents/repos/the-arena/.Xresources ~/.Xresources
+diff ~/Documents/repos/the-arena/.zshrc ~/.zshrc
