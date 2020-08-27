@@ -2,11 +2,7 @@
 ! Scheme: Chris Kempson (http://chriskempson.com)
 
 *foreground:   #d3d0c8
-#ifdef background_opacity
-*background:   [background_opacity]#2d2d2d
-#else
 *background:   #2d2d2d
-#endif
 *cursorColor:  #d3d0c8
 
 *color0:       #2d2d2d
@@ -27,21 +23,10 @@
 *color14:      #66cccc
 *color15:      #f2f0ec
 
-! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
-! use 'shell' template to set these if necessary
-*color16:      #f99157
-*color17:      #d27b53
-*color18:      #393939
-*color19:      #515151
-*color20:      #a09f93
-*color21:      #e8e6df
+URxvt.depth: 32
+URxvt.background: [85]#2d2d2d
 
-
-! URxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
-
-! alternative font settings with 'terminus':
-URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
-!URxvt.bold.font: -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
+URxvt.font: xft:TerminessTTF Nerd Font Mono:style=bold
 
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
