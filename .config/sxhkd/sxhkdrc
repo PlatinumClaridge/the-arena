@@ -6,7 +6,7 @@ super + shift + q
 
 # Show keybindings
 super + F1
-	sterminal -e keybindings.sh
+	$TERMINAL -e keybindings.sh
 
 # run applications
 
@@ -20,7 +20,7 @@ super + space
 #	dmenu_recent -h $PANEL_HEIGHT -fn 'xos4 Terminus:size=15' -i
 
 super + Return
-	sterminal
+	$TERMINAL
 
 super + shift + z
 	open-terminal-here
@@ -32,22 +32,22 @@ super + w
 	$BROWSER
 
 super + r
-	sterminal ranger
+	$TERMINAL -e ranger
 
 super + n
-	sterminal newsboat
+	$TERMINAL -e newsboat
 
 super + i
-	sterminal htop
+	$TERMINAL -e htop
 
 super + y
-	sterminal calcurse
+	$TERMINAL -e calcurse
 
 super + m
-	sterminal ncmpcpp
+	$TERMINAL -e ncmpcpp
 
 super + v
-	sterminal nvim -c "VimwikiIndex"
+	$TERMINAL -e nvim -c "VimwikiIndex"
 
 #super + e
 
@@ -253,10 +253,10 @@ super + shift + d
 
 # In case bspwmrc fails to execute/you wish have plugged in a new monitor
 super + shift + r
-	sterminal nvim ~/.config/bspwm/bspwmrc
+	$TERMINAL -e nvim ~/.config/bspwm/bspwmrc
 #edit this file
 alt + ctrl + space
-	sterminal nvim ~/.config/sxhkd/sxhkdrc
+	$TERMINAL -e nvim ~/.config/sxhkd/sxhkdrc
 
 # Remove receptacles
 super + BackSpace
