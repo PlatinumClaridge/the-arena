@@ -21,9 +21,8 @@ set nohlsearch
 set clipboard+=unnamedplus
 set ic
 set cursorline
-set termguicolors
 
-hi CursorLine cterm=NONE guibg=#393939
+hi CursorLine cterm=NONE ctermbg=darkgrey
 
 let g:lightline = {
       \ 'colorscheme': 'wombat',
@@ -86,7 +85,7 @@ let g:lightline = {
 " When shortcut files are updated, renew bash and ranger configs with new material:
 	"autocmd BufWritePost files,directories !shortcuts
 " Run xrdb whenever Xdefaults or Xresources are updated.
-	autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
+	autocmd BufWritePost *Xresources !xrdb merge %
 " Save a copy of crontab after adding/updating.
 	autocmd BufWritePost /tmp/crontab* !cronsave &
 " Update binds when sxhkdrc is updated.
