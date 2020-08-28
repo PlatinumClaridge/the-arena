@@ -25,7 +25,6 @@ xset s noblank &
 xset s noexpose &
 xset c on &
 xset -dpms &
-xbacklight -set 15 &
 ## Run screenlock when suspending
 ## light-locker &
 ## Make monitor settings persist between reboots
@@ -36,10 +35,7 @@ eval $(awk -F'=' '/Exec=/ {print $2}' ~/.config/autostart/lxrandr-autostart.desk
 ## xcape -e 'Super_L=Super_L|Shift_L|space;Super_R=Super_R|Shift_R|z' &
 ## Run Remaps script to adjust rate and remap super key to caps lock
 remaps &
-## Polkit agent
-/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
-## Gnome keyring
-gnome-keyring-daemon &
-/usr/lib/mate-notification-daemon/mate-notification-daemon &
+## Start the URxvt daemon
+urxvtd -q -o -f
 ## Welcome message
 #sleep 1 && notify-send "Welcome to Manjaro-bspwm" "Press super + F1 to show keybindings" &
