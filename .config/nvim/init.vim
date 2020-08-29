@@ -25,7 +25,7 @@ set cursorline
 hi CursorLine cterm=NONE ctermbg=darkgrey
 
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \ 'colorscheme': 'deus',
       \ }
 
 " Some basics:

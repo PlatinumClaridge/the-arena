@@ -3,7 +3,7 @@
 
 *foreground:   #d3d0c8
 *background:   #2d2d2d
-*cursorColor:  #d3d0c8
+*cursorColor:  #af0000
 
 *color0:       #2d2d2d
 *color1:       #f2777a
@@ -31,7 +31,7 @@ URxvt.font: xft:TerminessTTF Nerd Font Mono:style=bold
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
-URxvt*saveLines:                  5000
+URxvt*saveLines:                  32768
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
 ! URxvt*inheritPixmap:            true
