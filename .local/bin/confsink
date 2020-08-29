@@ -13,6 +13,7 @@ diff ~/Documents/repos/the-arena/.config/ncmpcpp/bindings ~/.config/ncmpcpp/bind
 diff ~/Documents/repos/the-arena/.config/ncmpcpp/config ~/.config/ncmpcpp/config
 diff ~/Documents/repos/the-arena/.config/neofetch/config.conf ~/.config/neofetch/config.conf
 diff ~/Documents/repos/the-arena/.config/nvim/init.vim ~/.config/nvim/init.vim
+diff ~/Documents/repos/the-arena/.config/ranger/rc.conf ~/.config/ranger/rc.conf
 diff ~/Documents/repos/the-arena/.config/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc
 diff ~/Documents/repos/the-arena/.config/sxiv/exec/key-handler ~/.config/sxiv/exec/key-handler
 diff ~/Documents/repos/the-arena/.config/zathura/zathurarc ~/.config/zathura/zathurarc
