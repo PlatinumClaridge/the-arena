@@ -22,9 +22,6 @@ super + space
 super + Return
 	$TERMINAL
 
-super + shift + z
-	open-terminal-here
-
 #super + d
 #	rofi-finder.sh
 
