@@ -22,7 +22,10 @@ set clipboard+=unnamedplus
 set ic
 set cursorline
 
-hi CursorLine cterm=NONE ctermbg=darkgrey
+hi CursorLine cterm=NONE ctermbg=9
+hi VimwikiHeader1 ctermfg=green
+hi VimwikiHeader2 ctermfg=blue
+hi VimwikiHeader3 ctermfg=yellow
 
 let g:lightline = {
       \ 'colorscheme': 'deus',

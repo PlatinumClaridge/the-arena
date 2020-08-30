@@ -1,30 +1,40 @@
-! Base16 Eighties
-! Scheme: Chris Kempson (http://chriskempson.com)
+*background:                #E7E7D4
+*foreground:                #657B83
 
-*foreground:   #d3d0c8
-*background:   #2d2d2d
-*cursorColor:  #d3d0c8
+!black
+*color0:    #343434
+*color8:    #079C91
 
-*color0:       #2d2d2d
-*color1:       #f2777a
-*color2:       #99cc99
-*color3:       #ffcc66
-*color4:       #6699cc
-*color5:       #cc99cc
-*color6:       #66cccc
-*color7:       #d3d0c8
+!red
+*color1:    #6F6F6F
+*color9:    #BFBFBF
 
-*color8:       #747369
-*color9:       #f2777a
-*color10:      #99cc99
-*color11:      #ffcc66
-*color12:      #6699cc
-*color13:      #cc99cc
-*color14:      #66cccc
-*color15:      #f2f0ec
+!green
+*color2:    #2AA1AA
+*color10:   #2AA198
+
+!yellow
+*color3:    #676767
+*color11:   #657B83
+
+!blue
+*color4:    #657B83
+*color12:   #343434
+
+!magenta
+*color5:    #6D6D6D
+*color13:   #A5A5A5
+
+!cyan
+*color6:    #455B63
+*color14:   #A9A9A9
+
+!white
+*color7:    #657B83
+*color15:   #A5A5A5
 
 URxvt.depth: 32
-URxvt.background: [85]#2d2d2d
+URxvt.background: [85]#E7E7D4
 
 URxvt.font: xft:TerminessTTF Nerd Font Mono:style=bold
 
