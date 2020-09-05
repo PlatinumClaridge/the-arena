@@ -28,7 +28,7 @@ hi VimwikiHeader2 ctermfg=blue
 hi VimwikiHeader3 ctermfg=yellow
 
 let g:lightline = {
-      \ 'colorscheme': 'deus',
+      \ 'colorscheme': 'ayu_light',
       \ }
 
 " Some basics:
